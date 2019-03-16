@@ -1,12 +1,12 @@
 package oop.commands.impl;
 
-import oop.Code;
 import oop.commands.Command;
 import oop.model.Memory;
 
 public class EmptyCommand implements Command {
 
-    public void execute(Memory memory, Code code) {
+    public void execute(Memory memory) {
+        System.out.println("We have no this command!"); 
     }
 
 }
